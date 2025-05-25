@@ -18,5 +18,4 @@ public class Client extends Person {
     public void receiveDish() {
         // klient otrzymuje danie
     }
-    //chuje 2 miały psa
 }
