@@ -25,6 +25,8 @@ public class Saver {
             writer.newLine();
             for (Client c : allClients) {
                 if (c.getStatus() == ClientStatus.SERVED) {
+                    totalRating += c.getSatisfactionRating();
+                    ratedCount++;
                     String dish = c.getOrder() != null ? c.getOrder().getDish().getName() : "-";
                     writer.write(
                             c.getId() + "," +
@@ -54,10 +56,6 @@ public class Saver {
                                     c.getActualWaitTime()
                     );
                     writer.newLine();
-                }
-                if (c.getStatus() == ClientStatus.SERVED) {
-                    totalRating += c.getSatisfactionRating();
-                    ratedCount++;
                 }
             }
             writer.newLine();

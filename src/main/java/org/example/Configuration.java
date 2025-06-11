@@ -1,7 +1,7 @@
 package org.example;
 
 /**
- * Zawiera wszystkie mozliwe do konfikuracji parametry zawarte w symulacji.
+ * Zawiera wszystkie mozliwe do konfiguracji parametry zawarte w symulacji.
  * Inicjalizuje zawartosc symualcji.
  */
 public class Configuration {

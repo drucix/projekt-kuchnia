@@ -100,7 +100,6 @@ public abstract class Client extends Person implements ClientAction{
     public void placeOrder(Dish dish, Kitchen kitchen) { // klient składa zamówienie w kuchni
         this.order = new Order(this,dish,1); //przykladowe zamowienie
         kitchen.addOrder(this.order);
-        System.out.println(getId()+". [VIP] "+getName() + " zamówił/a: " + dish.getName());
     }
 
     /**
