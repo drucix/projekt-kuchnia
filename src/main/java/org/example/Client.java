@@ -98,7 +98,7 @@ public abstract class Client extends Person implements ClientAction{
      */
     @Override
     public void placeOrder(Dish dish, Kitchen kitchen) { // klient składa zamówienie w kuchni
-        this.order = new Order(this,dish,1); //przykladowe zamowienie
+        this.order = new Order(this,dish,id); //przykladowe zamowienie
         kitchen.addOrder(this.order);
     }
 
