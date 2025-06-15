@@ -1,13 +1,12 @@
 === Obsłużeni klienci ===
 id,name,dish,status,satisfaction,actualWaitTime
-2,Jennifer Lawrence,Pierogi,SERVED,5,10
-3,Dakota Johnson,Sałatka Cezar,SERVED,4,12
-5,Johnny Depp,Lasagne,SERVED,4,14
+1,Pedro Pascal,Zupa pomidorowa,SERVED,5,8
+2,Robert Downey Jr.,Sałatka Cezar,SERVED,4,12
 
 === Nieobsłużeni klienci ===
 id,name,dish,status,satisfaction,actualWaitTime
-1,Ryan Gosling,Karpatka,WAITING,-,14
-4,Robert Downey Jr.,Burger,WAITING,-,14
+3,Jennifer Lawrence,Lasagne,WAITING,-,12
+4,Chris Evans,Pizza,WAITING,-,12
 
 ==== Statystyki ====
-Średnia ocena obsłużonych klientów: 4,33
+Średnia ocena obsłużonych klientów: 4,50
